@@ -6,7 +6,7 @@ class InvalidFileError(Exception):
     pass
 
 try:
-    file = open("data.txt", "r")
+    file = open("data.csv", "r")
 
     for line in file:
         if not line.strip():

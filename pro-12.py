@@ -2,7 +2,7 @@
 from PIL import Image, ImageFilter
 
 # Open image
-img = Image.open("image.jpg")
+img = Image.open(r"C:\Users\js058\OneDrive\Desktop\image.jpeg")
 
 # Display menu
 print("1. Grayscale")
